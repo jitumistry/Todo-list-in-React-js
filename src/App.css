@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: yellowgreen;
+}
+.form {
+  width: 450px;
+  background: #fff;
+  z-index: 3;
+  margin: auto;
+}
+.fm {
+  background-color: #fff;
+}
+form button {
+  float: left;
+}
+.form ol li {
+  text-align: start;
+}
+.delete button {
+  float: right;
+  background-color: green;
+}
+.delete button i {
+  color: white;
+}
+.delete button:hover {
+  background-color: red;
+}
+.delete li {
+  padding-right: 10px;
+}
